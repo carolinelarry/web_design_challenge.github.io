@@ -2,6 +2,10 @@
     background: rgb(206, 202, 202);
 }
 
-html{
+.html{
     background-color: gray;
+}
+
+.white{
+    background-color: white;
 }

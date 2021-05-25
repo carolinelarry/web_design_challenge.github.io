@@ -1,17 +1,7 @@
-.box1 {
-    height: 500px;
-    padding: 20px;
-    color:gray ;
-    background: white;
+.grey {
+    background: rgb(206, 202, 202);
 }
 
-.box2 {
-    height: 400px;
-    padding: 10px;
-    color:gray ;
-    background: white;
-}
-
-.container-color {
-    background: rgb(179, 175, 175);
+html{
+    background-color: gray;
 }

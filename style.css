@@ -1,5 +1,5 @@
 .grey {
-    background: rgb(206, 202, 202);
+    background-color: rgb(206, 202, 202);
 }
 
 .html{
@@ -18,3 +18,12 @@
 .float  {
     float: right;
   }
+
+.imgfloat {
+    float: left;
+    margin: 5px;
+}
+
+.pformat {
+    text-align: justify;
+}

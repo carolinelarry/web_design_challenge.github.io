@@ -12,10 +12,11 @@
   </head>
 
   <body>
+    <div class ="grey">
 
     <!-- Beginning of navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Latitude</a>
+      <a class="navbar-brand" href="index.html">Latitude</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -55,26 +56,31 @@
           <article class="description-content">
             <h1 class="description-header">Summary: Latitude vs. X</h1>
             <div class="size">
-            <img src="Visualizations/MaxTemp.png" class="img-fluid" alt="Responsive image" style="float:left">
+            <img src="Visualizations/MaxTemp.png" class="img-fluid" alt="Responsive image" class="imgfloat">
           </div>
-          <div class="text-wrap" style="float:right">
+          <!--<div class="text-wrap" style="float:right">
             
           
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
             
-          </div>
+          </div>-->
+          <p class="pformat">
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          </p>
       </article>
         </div>
 
         <div class="col-md-4">
           
           <article class="description-content">
+            <div class="white">
             <h1 class="description-header">Visualizations</h1>
             <!--<img src="Visualizations/Fig1.png" class="rounded float-left" alt="...">
             <img src="Visualizations/Fig1.png" class="rounded float-right" alt="..."> -->
             
             <div class="row">
-              <div class="col-md-4 col-sm-3 px-0">
+              
+              <div class="col-md-6 col-sm-3 px-0">
                 <a href="max_temp.html">
                   <img src="Visualizations/MaxTemp.png" class="img-fluid">
                 </a>
@@ -82,22 +88,30 @@
               
 
 
-              <div class="col-md-4 px-0">
-                <img src="Visualizations/Humidity.png" class="img-fluid">
+              <div class="col-md-6 col-sm-3 px-0">
+                <a href="humidity.html">
+                  <img src="Visualizations/Humidity.png" class="img-fluid">
+                </a>
             </div>
-          </div>
+          <!--</div>-->
 
-          <div class="row">
-            <div class="col-md-4 px-0">
+          <!-- <div class="row"> -->
+            <div class="col-md-6 col-sm-3 px-0">
+              <a href="cloudiness.html">
                 <img src="Visualizations/Cloudiness.png" class="img-fluid">
+              </a>
             </div>
 
-            <div class="col-md-4 px-0">
+            <div class="col-md-6 col-sm-3 px-0">
+              <a href="wind_speed.html">
               <img src="Visualizations/WindSpeed.png" class="img-fluid">
+            </a>
           </div>
-        </div>
+        
+       </div>
+      <!--</div> this is for class=white-->
          
-          
+    </div>  
       </article>
         </div>
       </div>
@@ -141,5 +155,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </div>
   </body>
 </html>

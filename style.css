@@ -9,3 +9,12 @@
 .white{
     background-color: white;
 }
+
+.size {
+    height: 200px;
+    width: 200px;
+  }
+
+.float  {
+    float: right;
+  }

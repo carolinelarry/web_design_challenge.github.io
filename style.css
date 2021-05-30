@@ -11,8 +11,8 @@
 }
 
 .size {
-    height: 125px;
-    width: 200px;
+    height: 200px;
+    width: 300px;
   }
 
 .float  {
@@ -63,12 +63,4 @@
 
 #images{
     text-align:center;
-}
-
-.child1 {
-    height: 
-}
-
-.child2 {
-    height: 
 }

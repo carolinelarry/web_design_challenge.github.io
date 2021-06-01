@@ -8,7 +8,7 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
-        <title>Cloudiness</title>
+        <title>Max Temp</title>
       </head>
 
     <body>
@@ -48,38 +48,37 @@
 
             <div class="row">
       
-              <div class="col-md-7 col-sm-12">
+
       
-                <div class="box1">
+                <div class="col-md-7 col-sm-12 box1">
       
-                  <h1 class="description-header">Cloudiness vs. X</h1>
+                  <h1 class="description-header">Cloudiness</h1>
       
-                  <div class="imgfloat">
-                    <div class="size">
+                  
+                  <div class="imgfloat col-lg-12 col-sm-12">
+                    <div class="visualization_size">
                     <img src="Visualizations/Cloudiness.png" class="img-fluid" alt="Responsive image" class="imgfloat">
                     </div>
                   </div> <!--imgfloat-->
+                
       
-                  <p class="pformat">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim 
-                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliq
-                      uip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-                      voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-                      sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-                    mollit anim id est laborum. dolore eu fugiat nulla pariatur. Excepteur 
-                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-                    mollit anim id est laborum. non proident, sunt in culpa qui officia deserunt 
-                    mollit anim id est laborum. dolore eu fugiat nulla pariatur. Excepteur 
-                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-                    mollit anim id est laborum.
+
+                
+                
+                  <p class="pformat col-lg-12 col-sm-12">
+                    There is no apparent coorelation between latitude and cloudiness.
                     </p>
+                  
+                  
       
                 </div><!--End of class=box1-->
       
       
       
-              </div><!--End of class=col-md-1-->
+              <!--</div>End of class=col-md-1-->
+            
+
+           
       
               <!--Beginning of new box-->
               <div class="col-md-5 col-sm-12 box1">
@@ -87,13 +86,13 @@
       
       
                 <div class="row">
-                <div class="col-md-6 col-sm-12 px-0">
+                <div class="col-md-6 col-sm-4 px-0">
                   <a href="max_temp.html">
                     <img src="Visualizations/MaxTemp.png" class="img-fluid img_margin">
                   </a>
                 </div>
       
-                <div class="col-md-6 col-sm-12 px-0">
+                <div class="col-md-6 col-sm-4 px-0">
                     <a href="humidity.html">
                       <img src="Visualizations/Humidity.png" class="img-fluid img_margin">
                     </a>
@@ -102,13 +101,13 @@
                 
       
                 <div class="row">
-                <div class="col-md-6 col-sm-12 px-0 selected_image">
+                <div class="col-md-6 col-sm-4 px-0 selected_image">
                     <a href="cloudiness.html">
                       <img src="Visualizations/Cloudiness.png" class="img-fluid img_margin">
                     </a>
                   </div>
       
-                  <div class="col-md-6 col-sm-12 px-0">
+                  <div class="col-md-6 col-sm-4 px-0">
                     <a href="wind_speed.html">
                     <img src="Visualizations/WindSpeed.png" class="img-fluid img_margin">
                   </a>
@@ -117,8 +116,9 @@
       
       
               </div><!--End of col-md-5-->
+            </div> <!--end of row-->
       
-            </div> <!--end of class=row-->
+            
       
           </div> <!--End of class=container-->
 
@@ -133,3 +133,4 @@
 
 
 </html>
+

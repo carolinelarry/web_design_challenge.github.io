@@ -12,8 +12,6 @@
       </head>
 
     <body>
-        <div class = "grey">
-
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="index.html">Latitude</a>
@@ -44,25 +42,97 @@
           </nav>
 
 
-        <div class = "col-md-12">
-            <h1>Comparison: Max Temp vs X</h1>
-        </div>
-        <div class = "col-md-12">
-            Click any plot to get an in-depth analysis.
-        </div>
-        <div class="col-md-6 col-sm-12">
-            <h4>vs. Max Temperature</h4>
-            <img src="Visualizations/MaxTemp.png" class="img-fluid" alt="Responsive image">
-        </div>
-    
+
+
+        <div class="container">
+
+            <div class="row">
+      
+
+      
+                <div class="col-md-7 col-sm-12 box1">
+      
+                  <h1 class="description-header">Max Temp</h1>
+      
+                  
+                  <div class="imgfloat col-lg-12 col-sm-12">
+                    <div class="visualization_size">
+                    <img src="Visualizations/MaxTemp.png" class="img-fluid" alt="Responsive image" class="imgfloat">
+                    </div>
+                  </div> <!--imgfloat-->
+                
+      
+
+                
+                
+                  <p class="pformat col-lg-12 col-sm-12">
+                    As expected, for cities closer to the equator, its max temperature will be higher.
+                    As latitude gets closer to zero the max temperature increases, and as latitude gets
+                     farther away from zero the max temperature begins to decrease.
+                    </p>
+                  
+                  
+      
+                </div><!--End of class=box1-->
+      
+      
+      
+              <!--</div>End of class=col-md-1-->
+            
+
+           
+      
+              <!--Beginning of new box-->
+              <div class="col-md-5 col-sm-12 box1">
+                <h1 class="description-header">Visualizations</h1>
+      
+      
+                <div class="row">
+                <div class="col-md-6 col-sm-4 px-0 selected_image">
+                  <a href="max_temp.html">
+                    <img src="Visualizations/MaxTemp.png" class="img-fluid img_margin">
+                  </a>
+                </div>
+      
+                <div class="col-md-6 col-sm-4 px-0">
+                    <a href="humidity.html">
+                      <img src="Visualizations/Humidity.png" class="img-fluid img_margin">
+                    </a>
+                </div>
+                </div><!--End of class=row for box2-->
+                
+      
+                <div class="row">
+                <div class="col-md-6 col-sm-4 px-0">
+                    <a href="cloudiness.html">
+                      <img src="Visualizations/Cloudiness.png" class="img-fluid img_margin">
+                    </a>
+                  </div>
+      
+                  <div class="col-md-6 col-sm-4 px-0">
+                    <a href="wind_speed.html">
+                    <img src="Visualizations/WindSpeed.png" class="img-fluid img_margin">
+                  </a>
+                </div>
+                </div><!--End of class=row-->
+      
+      
+              </div><!--End of col-md-5-->
+            </div> <!--end of row-->
+      
+            
+      
+          </div> <!--End of class=container-->
+
+
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
-    </div>
+
     </body>
 
 
 
 
 </html>
+

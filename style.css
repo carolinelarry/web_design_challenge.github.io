@@ -64,3 +64,9 @@
 #images{
     text-align:center;
 }
+
+.box1{
+    min-height: 100px;
+    font-weight: 800;
+    background-color: rgb(206, 202, 202);
+}

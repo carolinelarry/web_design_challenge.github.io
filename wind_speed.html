@@ -14,12 +14,12 @@
     <body>
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">Latitude</a>
+            <a class="navbar-brand mr-auto" href="index.html">Latitude</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
+              <ul class="navbar-nav ml-auto">
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Plots
@@ -48,34 +48,43 @@
 
             <div class="row">
       
-              <div class="col-md-7 col-sm-12">
+
       
-                <div class="box1">
+                <div class="col-md-7 col-sm-12 box1">
       
                   <h1 class="description-header">Wind Speed</h1>
       
                   
-                  <div class="imgfloat">
+                  <div class="imgfloat col-lg-12 col-md-12 col-sm-12">
                     <div class="visualization_size">
                     <img src="Visualizations/WindSpeed.png" class="img-fluid" alt="Responsive image" class="imgfloat">
                     </div>
                   </div> <!--imgfloat-->
+                
+                
       
 
                 
-      
-                  <p class="pformat">
+                
+                  <p class="pformat col-lg-12 col-md-12 col-sm-12">
                     There does not appear to be strong coorelation between latitude and wind speed.
-                    Farther north from the equator there are more cities with higher wind spped than cities 
-                    that are south of the equator, but overall there is no strong coorelation.
+                    Farther north of the equator there are more cities with higher wind speeds when compared to cities 
+                    south of the equator, but overall there is no strong coorelation.
+
+
                     </p>
+                 
+                  
                   
       
                 </div><!--End of class=box1-->
       
       
       
-              </div><!--End of class=col-md-1-->
+              <!--</div>End of class=col-md-1-->
+            
+
+           
       
               <!--Beginning of new box-->
               <div class="col-md-5 col-sm-12 box1">
@@ -83,13 +92,13 @@
       
       
                 <div class="row">
-                <div class="col-md-6 col-sm-12 px-0">
+                <div class="col-md-6 col-sm-4 px-0">
                   <a href="max_temp.html">
                     <img src="Visualizations/MaxTemp.png" class="img-fluid img_margin">
                   </a>
                 </div>
       
-                <div class="col-md-6 col-sm-12 px-0">
+                <div class="col-md-6 col-sm-4 px-0">
                     <a href="humidity.html">
                       <img src="Visualizations/Humidity.png" class="img-fluid img_margin">
                     </a>
@@ -98,13 +107,13 @@
                 
       
                 <div class="row">
-                <div class="col-md-6 col-sm-12 px-0">
+                <div class="col-md-6 col-sm-4 px-0">
                     <a href="cloudiness.html">
                       <img src="Visualizations/Cloudiness.png" class="img-fluid img_margin">
                     </a>
                   </div>
       
-                  <div class="col-md-6 col-sm-12 px-0 selected_image">
+                  <div class="col-md-6 col-sm-4 px-0 selected_image">
                     <a href="wind_speed.html">
                     <img src="Visualizations/WindSpeed.png" class="img-fluid img_margin">
                   </a>
@@ -113,8 +122,9 @@
       
       
               </div><!--End of col-md-5-->
+            </div> <!--end of row-->
       
-            </div> <!--end of class=row-->
+            
       
           </div> <!--End of class=container-->
 

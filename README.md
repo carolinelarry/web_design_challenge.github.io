@@ -1,6 +1,6 @@
 # Web Visualization Dashboard (Latitude)
 
-## Latitude - Latitude Analysis Dashboard
+## Latitude Analysis Dashboard
 
 I created a visualization dashboard website using visualizations from previous repositories. Specifically, we'll be plotting weather data.
 

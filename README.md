@@ -31,6 +31,10 @@ The website also has a navigation menu that:
 * Is responsive (using media queries)
 
 
+## Contact
+Email: cgrace1011@gmail.com
+
+
 ## References
 
 OpenWeatherMap.org. (2012). Сurrent weather and forecast. Retrieved from [https://openweathermap.org/](https://openweathermap.org/)

@@ -23,17 +23,17 @@ The website consisted of 7 pages total, including:
   * The plot/visualization itself for the selected comparison
   * A paragraph describing the plot and its significance
 
-<img width="1437" alt="Screen Shot 2021-09-12 at 10 53 09 AM" src="https://user-images.githubusercontent.com/79863465/132994386-ffd08789-ae6a-4a0e-995b-84e64dc35637.png">
+<img width="800" alt="Screen Shot 2021-09-12 at 10 53 09 AM" src="https://user-images.githubusercontent.com/79863465/132994386-ffd08789-ae6a-4a0e-995b-84e64dc35637.png">
 
 * A "Comparisons" page that:
   * Contains all of the visualizations on the same page so we can easily visually compare them
   * Uses a Bootstrap grid for the visualizations
 
-<img width="1440" alt="Screen Shot 2021-09-12 at 10 53 58 AM" src="https://user-images.githubusercontent.com/79863465/132994404-799de3db-59cc-4413-874f-07ba515fac5a.png">
+<img width="800" alt="Screen Shot 2021-09-12 at 10 53 58 AM" src="https://user-images.githubusercontent.com/79863465/132994404-799de3db-59cc-4413-874f-07ba515fac5a.png">
 
 * A "Data" page that:
   * Displays a responsive table containing the data used in the visualizations.
-  <img width="1440" alt="Screen Shot 2021-09-12 at 10 53 22 AM" src="https://user-images.githubusercontent.com/79863465/132994415-7829de48-1ab9-416f-89ce-a44bc24d96ea.png">
+  <img width="800" alt="Screen Shot 2021-09-12 at 10 53 22 AM" src="https://user-images.githubusercontent.com/79863465/132994415-7829de48-1ab9-416f-89ce-a44bc24d96ea.png">
 
 
 The website also has a navigation menu that:

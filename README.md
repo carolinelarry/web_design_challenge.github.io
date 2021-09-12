@@ -43,6 +43,9 @@ The website also has a navigation menu that:
 * Provides two more text links on the right: "Comparisons," which links to the comparisons page, and "Data," which links to the data page.
 * Is responsive (using media queries)
 
+## Link to Page:
+https://carolinelarry.github.io/web_design_challenge.github.io/
+
 
 ## Contact
 Email: cgrace1011@gmail.com

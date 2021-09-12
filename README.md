@@ -16,7 +16,7 @@ The website consisted of 7 pages total, including:
   * Links to each visualizations page. There is a sidebar containing preview images of each plot, and clicking an image takes the user to that visualization
 
 
-<img width="1436" alt="Screen Shot 2021-09-12 at 10 52 56 AM" src="https://user-images.githubusercontent.com/79863465/132994365-9a7fdd63-2f90-474c-ba0c-acc8e4fa9b73.png">
+<img width="900" alt="Screen Shot 2021-09-12 at 10 52 56 AM" src="https://user-images.githubusercontent.com/79863465/132994365-9a7fdd63-2f90-474c-ba0c-acc8e4fa9b73.png">
 
 * Four visualization pages, each with:
   * A descriptive title and heading tag

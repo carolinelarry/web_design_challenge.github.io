@@ -3,9 +3,9 @@
 
 ## Latitude Analysis Dashboard
 
-I created a visualization dashboard website using visualizations from previous repositories. Specifically, we'll be plotting weather data.
+I created a visualization dashboard website using visualizations from previous repositories. Specifically, I'll be plotting weather data.
 
-In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
+In building this dashboard, I created individual pages for each plot and a means by which a user can navigate between them. These pages will contain the visualizations and their corresponding explanations. I'll also have a landing page, a page where the user can see a comparison of all of the plots, and another page where they can view the data used to build them.
 
 ## Website Layout
 
